@@ -1,0 +1,10 @@
+Package: com.suu.slide2kill8lite
+Name: Slide2Kill8 Lite
+Depends: mobilesubstrate
+Version: 0.0.1-28
+Architecture: iphoneos-arm
+Description: 
+Maintainer: Suu
+Author: Suu
+Section: Tweaks
+Installed-Size: 368

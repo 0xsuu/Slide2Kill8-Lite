@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.suu.slide2kill8litesettings</string>
+			<key>key</key>
+			<string>Enabled</string>
+			<key>label</key>
+			<string>Enabled</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.suu.slide2kill8litesettings</string>
+			<key>key</key>
+			<string>killMusic</string>
+			<key>label</key>
+			<string>Kill Now Playing</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Need more cool functions? Go get Slide2Kill8! (Still developing.)</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>getS2K8:</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Get It! (Not Avaliable Now)</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Slide2Kill 8 Lite - 0.0.1             by Suu</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>followTwitter:</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>icon</key>
+			<string>TwitterIcon.png</string>
+			<key>label</key>
+			<string>Follow Me: @0xSuu</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>followSina:</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>icon</key>
+			<string>WeiboIcon.png</string>
+			<key>label</key>
+			<string>Follow Me: @0xSuu</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>donate:</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>icon</key>
+			<string>PayPalIcon.png</string>
+			<key>label</key>
+			<string>Donate</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Slide2Kill8 Lite</string>
+</dict>
+</plist>

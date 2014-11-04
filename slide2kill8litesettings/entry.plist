@@ -1,0 +1,10 @@
+{
+	entry = {
+		bundle = "Slide2Kill8LiteSettings";
+		cell = PSLinkCell;
+		detail = "Slide2Kill8LiteSettingsListController";
+		icon = "Slide2Kill8LiteSettings.png";
+		isController = 1;
+		label = "Slide2Kill8 Lite";
+	};
+}
