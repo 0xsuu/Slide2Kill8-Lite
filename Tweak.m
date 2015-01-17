@@ -111,10 +111,10 @@ UIViewController *appIconScrollerViewController;
     BOOL killMusic = [[dict objectForKey:@"killMusic"] boolValue];
     
     //Get now playing
-    SBMediaController *mediaController = [SBMediaController sharedInstance];
+    SBMediaController *mediaController = [%c(SBMediaController) sharedInstance];
     BOOL isPlaying = [mediaController isPlaying];
     SBApplication *nowPlayingApp = [mediaController nowPlayingApplication];
-    NSString *playingID = [nowPlayingApplication bundleIdentifier];
+    NSString *playingID = [nowPlayingApp bundleIdentifier];
     
     //Get the array of kill aoo list
     for (SBDisplayLayout *display in appDisplayItemList)
